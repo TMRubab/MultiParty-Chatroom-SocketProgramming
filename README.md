@@ -12,8 +12,8 @@ Once you get in the chatroom, you have the following 4 options:
 
 2) Type "WHO" to see who are active in the chatroom
 
-3) Send direct message using the format "#<user>: <msg>": If you write someone's name that does not exist, you'll be notified of that
+3) Send direct message using the format "#`<user>`: `<msg>`": where `<user>` is the name of the user you want to send message to and `<msg>` is your message. If you write someone's name that does not exist, you'll be notified of that
 
 4) Input any message to send to everyone in the chatroom
 
-On the server side, every time it receives some request from a client, it prints what's going on (e.g. who the client is, what's their request, what's the message, etc.
+On the server side, every time it receives some request from a client, it prints what's going on (e.g. who the client is, what's their request, what's the message, etc.).
